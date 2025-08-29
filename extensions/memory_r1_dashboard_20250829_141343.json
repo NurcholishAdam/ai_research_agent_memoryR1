@@ -1,0 +1,432 @@
+{
+  "dashboard_id": "6af5decd-ac9c-4518-a9f1-c4108b6f49bf",
+  "generated_at": "2025-08-29T14:13:43.277856",
+  "system_status": {
+    "timestamp": "2025-08-29T14:13:43.277856",
+    "current_turn": 4,
+    "system_stats": {
+      "total_extractions": 0,
+      "total_operations": 0,
+      "total_rewards": 3.0000000000000004
+    },
+    "module_status": {
+      "graph_memory": {
+        "nodes": 0,
+        "edges": 0,
+        "fragments": 0
+      },
+      "provenance_tracker": {
+        "records": 0
+      },
+      "trace_buffer": {
+        "traces": 4,
+        "utilization": 0.004
+      }
+    },
+    "validation_status": {
+      "graph_state": "valid",
+      "provenance_integrity": "valid"
+    }
+  },
+  "sections": {
+    "graph_memory_view": {
+      "view_type": "graph_memory",
+      "timestamp": "2025-08-29T14:13:43.277856",
+      "graph_structure": {
+        "nodes": [],
+        "edges": [],
+        "clusters": [],
+        "statistics": {
+          "total_nodes": 0,
+          "total_edges": 0,
+          "connected_components": 0,
+          "average_degree": 0,
+          "density": 0,
+          "clustering_coefficient": 0
+        }
+      },
+      "entity_types": {},
+      "edge_predicates": {},
+      "visualization_data": {
+        "layout_type": "force_directed",
+        "node_positions": {},
+        "edge_paths": [],
+        "color_scheme": {
+          "nodes": {
+            "entity": "#3498db",
+            "concept": "#e74c3c",
+            "unknown": "#95a5a6"
+          },
+          "edges": {
+            "is_a": "#2ecc71",
+            "has": "#f39c12",
+            "located_in": "#9b59b6",
+            "unknown": "#7f8c8d"
+          }
+        },
+        "size_mapping": {
+          "min_node_size": 5,
+          "max_node_size": 20,
+          "edge_width_factor": 2
+        }
+      }
+    },
+    "provenance_explorer": {
+      "view_type": "provenance_explorer",
+      "timestamp": "2025-08-29T14:13:43.277856",
+      "selected_reference": null,
+      "provenance_records": [],
+      "update_chains": [],
+      "confidence_timeline": [],
+      "source_analysis": {
+        "total_records": 0,
+        "source_turn_range": {
+          "min": 0,
+          "max": 0
+        },
+        "confidence_distribution": {
+          "mean": 0,
+          "std": 0,
+          "min": 0,
+          "max": 0
+        },
+        "validation_status_counts": {}
+      }
+    },
+    "trace_replay_panel": {
+      "view_type": "trace_replay",
+      "timestamp": "2025-08-29T14:13:43.277856",
+      "time_range": {
+        "start": 1,
+        "end": 10
+      },
+      "timeline_data": [
+        {
+          "turn_id": 1,
+          "timestamp": "2025-08-29T14:13:43.268665",
+          "input_preview": "Paris is the capital of France.",
+          "facts_extracted": 0,
+          "operations_count": 1,
+          "reward": 0.8,
+          "graph_state_hash": "3b2f7c8a"
+        },
+        {
+          "turn_id": 2,
+          "timestamp": "2025-08-29T14:13:43.268665",
+          "input_preview": "France is located in Europe.",
+          "facts_extracted": 0,
+          "operations_count": 1,
+          "reward": 0.9,
+          "graph_state_hash": "3b2f7c8a"
+        },
+        {
+          "turn_id": 3,
+          "timestamp": "2025-08-29T14:13:43.268665",
+          "input_preview": "The Eiffel Tower is in Paris.",
+          "facts_extracted": 0,
+          "operations_count": 1,
+          "reward": 0.7,
+          "graph_state_hash": "3b2f7c8a"
+        },
+        {
+          "turn_id": 4,
+          "timestamp": "2025-08-29T14:13:43.268665",
+          "input_preview": "Europe contains many countries.",
+          "facts_extracted": 0,
+          "operations_count": 1,
+          "reward": 0.6,
+          "graph_state_hash": "3b2f7c8a"
+        }
+      ],
+      "action_log": [
+        {
+          "turn_id": 1,
+          "input_text": "Paris is the capital of France.",
+          "extracted_facts": [],
+          "memory_operations": [
+            "noop"
+          ],
+          "output_response": "I understand your input, but couldn't extract specific facts.",
+          "reward_signal": 0.8,
+          "provenance_updates": 0,
+          "graph_state_change": true
+        },
+        {
+          "turn_id": 2,
+          "input_text": "France is located in Europe.",
+          "extracted_facts": [],
+          "memory_operations": [
+            "noop"
+          ],
+          "output_response": "I understand your input, but couldn't extract specific facts.",
+          "reward_signal": 0.9,
+          "provenance_updates": 0,
+          "graph_state_change": false
+        },
+        {
+          "turn_id": 3,
+          "input_text": "The Eiffel Tower is in Paris.",
+          "extracted_facts": [],
+          "memory_operations": [
+            "noop"
+          ],
+          "output_response": "I understand your input, but couldn't extract specific facts.",
+          "reward_signal": 0.7,
+          "provenance_updates": 0,
+          "graph_state_change": false
+        },
+        {
+          "turn_id": 4,
+          "input_text": "Europe contains many countries.",
+          "extracted_facts": [],
+          "memory_operations": [
+            "noop"
+          ],
+          "output_response": "I understand your input, but couldn't extract specific facts.",
+          "reward_signal": 0.6,
+          "provenance_updates": 0,
+          "graph_state_change": false
+        }
+      ],
+      "reward_attribution": {
+        "total_reward": 3.0000000000000004,
+        "total_operations": 4,
+        "avg_reward_per_operation": 0.7500000000000001,
+        "operation_breakdown": {
+          "noop": {
+            "count": 4,
+            "attributed_reward": 3.0000000000000004
+          }
+        },
+        "reward_timeline": [
+          {
+            "turn": 1,
+            "reward": 0.8
+          },
+          {
+            "turn": 2,
+            "reward": 0.9
+          },
+          {
+            "turn": 3,
+            "reward": 0.7
+          },
+          {
+            "turn": 4,
+            "reward": 0.6
+          }
+        ]
+      },
+      "replay_controls": {
+        "total_turns": 4,
+        "available_range": {
+          "min": 1,
+          "max": 4
+        },
+        "playback_speed": 1.0,
+        "current_position": 1
+      }
+    },
+    "qa_outcome_viewer": {
+      "view_type": "qa_outcome",
+      "timestamp": "2025-08-29T14:13:43.277856",
+      "qa_sessions": [
+        {
+          "session_id": "qa_1",
+          "input_question": "Paris is the capital of France.",
+          "retrieved_memory": {
+            "facts_used": [],
+            "memory_operations": [
+              "noop"
+            ],
+            "confidence_scores": []
+          },
+          "final_answer": "I understand your input, but couldn't extract specific facts.",
+          "performance_scores": {
+            "f1_score": 0.7881751019718107,
+            "precision": 0.8462070845180676,
+            "recall": 0.8429074326836956,
+            "confidence": 0.8
+          },
+          "memory_effectiveness": {
+            "facts_retrieved": 0,
+            "operations_performed": 1,
+            "retrieval_efficiency": 0.0
+          }
+        },
+        {
+          "session_id": "qa_2",
+          "input_question": "France is located in Europe.",
+          "retrieved_memory": {
+            "facts_used": [],
+            "memory_operations": [
+              "noop"
+            ],
+            "confidence_scores": []
+          },
+          "final_answer": "I understand your input, but couldn't extract specific facts.",
+          "performance_scores": {
+            "f1_score": 0.8651436667842876,
+            "precision": 0.7703355712410752,
+            "recall": 0.6003745598364946,
+            "confidence": 0.9
+          },
+          "memory_effectiveness": {
+            "facts_retrieved": 0,
+            "operations_performed": 1,
+            "retrieval_efficiency": 0.0
+          }
+        },
+        {
+          "session_id": "qa_3",
+          "input_question": "The Eiffel Tower is in Paris.",
+          "retrieved_memory": {
+            "facts_used": [],
+            "memory_operations": [
+              "noop"
+            ],
+            "confidence_scores": []
+          },
+          "final_answer": "I understand your input, but couldn't extract specific facts.",
+          "performance_scores": {
+            "f1_score": 0.7120609512055514,
+            "precision": 0.7998742930920268,
+            "recall": 0.6631153842041664,
+            "confidence": 0.7
+          },
+          "memory_effectiveness": {
+            "facts_retrieved": 0,
+            "operations_performed": 1,
+            "retrieval_efficiency": 0.0
+          }
+        },
+        {
+          "session_id": "qa_4",
+          "input_question": "Europe contains many countries.",
+          "retrieved_memory": {
+            "facts_used": [],
+            "memory_operations": [
+              "noop"
+            ],
+            "confidence_scores": []
+          },
+          "final_answer": "I understand your input, but couldn't extract specific facts.",
+          "performance_scores": {
+            "f1_score": 0.6254648522729584,
+            "precision": 0.8286582220494061,
+            "recall": 0.6533705123695386,
+            "confidence": 0.6
+          },
+          "memory_effectiveness": {
+            "facts_retrieved": 0,
+            "operations_performed": 1,
+            "retrieval_efficiency": 0.0
+          }
+        }
+      ],
+      "performance_metrics": {
+        "avg_f1_score": 0.747711143058652,
+        "avg_precision": 0.8112687927251441,
+        "avg_recall": 0.6899419722734739,
+        "f1_variance": 0.007910705347380247,
+        "total_sessions": 4,
+        "high_performance_sessions": 1
+      },
+      "memory_retrieval_analysis": {
+        "total_facts_retrieved": 0,
+        "total_operations": 4,
+        "avg_facts_per_session": 0.0,
+        "avg_operations_per_session": 1.0,
+        "retrieval_efficiency": 0.0
+      },
+      "answer_quality_trends": [
+        {
+          "session_index": 0,
+          "f1_score": 0.7881751019718107,
+          "memory_facts": 0,
+          "timestamp": "2025-08-29T14:13:43.282873"
+        },
+        {
+          "session_index": 1,
+          "f1_score": 0.8651436667842876,
+          "memory_facts": 0,
+          "timestamp": "2025-08-29T14:13:43.282873"
+        },
+        {
+          "session_index": 2,
+          "f1_score": 0.7120609512055514,
+          "memory_facts": 0,
+          "timestamp": "2025-08-29T14:13:43.282873"
+        },
+        {
+          "session_index": 3,
+          "f1_score": 0.6254648522729584,
+          "memory_facts": 0,
+          "timestamp": "2025-08-29T14:13:43.282873"
+        }
+      ]
+    },
+    "policy_metrics": {
+      "view_type": "policy_metrics",
+      "timestamp": "2025-08-29T14:13:43.282873",
+      "training_progress": {
+        "episodes_trained": 0,
+        "total_reward": 0.0,
+        "avg_qa_accuracy": 0.0,
+        "avg_graph_integrity": 0.0,
+        "current_entropy": 0.0,
+        "current_kl_divergence": 0.0
+      },
+      "reward_curves": [],
+      "entropy_timeline": [],
+      "kl_divergence_history": [],
+      "policy_weights_evolution": {
+        "add_node_weight": {
+          "current_value": 0.8,
+          "history": [
+            0.8
+          ]
+        },
+        "merge_edge_weight": {
+          "current_value": 0.9,
+          "history": [
+            0.9
+          ]
+        },
+        "confidence_threshold": {
+          "current_value": 0.6,
+          "history": [
+            0.6
+          ]
+        }
+      },
+      "performance_indicators": {}
+    }
+  },
+  "dashboard_state": {
+    "current_view": "graph_memory",
+    "selected_node": null,
+    "selected_trace": null,
+    "time_range": {
+      "start": 1,
+      "end": 10
+    },
+    "filters": {
+      "confidence_threshold": 0.5,
+      "show_orphans": true,
+      "operation_types": [
+        "all"
+      ]
+    }
+  },
+  "navigation": {
+    "available_views": [
+      "graph_memory",
+      "provenance",
+      "trace_replay",
+      "qa_outcomes",
+      "policy_metrics"
+    ],
+    "current_view": "graph_memory"
+  }
+}
